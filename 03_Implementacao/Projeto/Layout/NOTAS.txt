@@ -1,0 +1,3 @@
+size chart:
+
+icon: 512px x 512px

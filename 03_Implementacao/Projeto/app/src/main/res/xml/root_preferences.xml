@@ -1,0 +1,54 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/general_header" app:icon="@drawable/ic_baseline_settings_24">
+
+        <PreferenceScreen
+            app:defaultValue="pt"
+            app:key="language"
+            app:summary="@string/language_selected"
+            app:title="@string/language_title"
+            />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory app:title="@string/Legal" app:icon="@drawable/ic_baseline_terms_and_policy">
+
+        <PreferenceScreen
+            app:title="@string/text_terms_and_conditions_title"
+            app:key="@string/text_terms_and_conditions_title"
+            app:summary="@string/text_settings_readme">
+            <intent android:targetPackage="com.example.habemusfesta"
+                android:targetClass="com.example.habemusfesta.ui.main.TermsAndConditions"/>
+        </PreferenceScreen>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/About">
+        <PreferenceScreen
+            app:title="@string/text_settings_developer"
+            app:key="developer"
+            app:summary="ISEL PRJ#50">
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            app:title="@string/text_settings_release"
+            app:key="releaseDate"
+            app:summary="05/07/2021">
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            app:title="@string/text_settings_version"
+            app:key="version"
+            app:summary="1.0">
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            app:title="@string/text_settings_support"
+            app:key="contact"
+            app:summary="support-habemusfesta@prj50.pt">
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

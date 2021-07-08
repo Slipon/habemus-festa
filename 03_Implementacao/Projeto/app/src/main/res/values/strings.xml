@@ -1,0 +1,199 @@
+<resources>
+    <string name="app_name">HabemusFesta</string>
+    <string name="main_logo">main-logo</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Mensagens</string>
+    <string name="sync_header">Sincronização</string>
+    <string name="general_header">Geral</string>
+    <string name="Legal">Termos e Privacidade</string>
+    <string name="About">Sobre</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">A sua assinatura</string>
+    <string name="language_title">Idioma</string>
+    <string name="language_selected">Português</string>
+    <string name="reply_title">Valor de resposta por defeito</string>
+    <string name="google_web_client_id">368431396832-vl44n3t99llqfgm3pmm3rvl77lbek970.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">217928343097127</string>
+    <string name="fb_login_protocol_scheme">fb217928343097127</string>
+    <string name="title_activity_maps">Mapa</string>
+    <string name="title_activity_settings">Definições</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sincronizar email automáticamente</string>
+    <string name="attachment_title">Transferir anexos</string>
+    <string name="attachment_summary_on">Transferir anexos automáticamente para emails a receber</string>
+    <string name="attachment_summary_off">Apenas transferir anexos quando requiridos manualmente</string>
+    <string name="sounds">Som</string>
+    <string name="sounds_title">Sound played when pressing buttons</string>
+    <string name="notifications">Notificações</string>
+    <string name="notifications_title">Notificações mostradas no topo do ecrã</string>
+
+    <!-- MAPS and PLACES -->
+    <string name="google_places_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBH_gVu23l1mrgqXwofZJnxKrtTKkpivBs</string>
+
+
+    <!-- User and Admin Menu -->
+    <string name="menu_button_text_events">EVENTOS</string>
+    <string name="menu_button_text_new_event">NOVO EVENTO</string>
+    <string name="menu_button_text_scan">SCAN UTILIZADOR</string>
+    <string name="menu_button_text_showQR">MEU CÓDIGO QR</string>
+    <string name="menu_button_text_settings">DEFINIÇÕES</string>
+    <string name="menu_button_text_profile">PERFIL</string>
+    <string name="menu_button_text_transactions">TRANSAÇÕES</string>
+    <string name="menu_button_text_take_points">COBRAR PONTOS</string>
+    <string name="menu_button_text_new_product">NOVO PRODUTO</string>
+    <string name="menu_button_text_logout">TERMINAR SESSÃO</string>
+    <string name="menu_button_remove_event">REMOVER EVENTO</string>
+    <string name="menu_button_remove_product">REMOVER PRODUTO</string>
+    <string name="menu_button_text_new_colaborator">NOVO COLABORADOR</string>
+
+    <!-- Buttons Text -->
+    <string name="text_btn_confirm">Confirmar></string>
+    <string name="text_btn_remove">Remover</string>
+    <string name="text_btn_back">Voltar</string>
+    <string name="text_btn_create_event">Criar Evento</string>
+    <string name="text_btn_upload_img">Carregar Imagem</string>
+    <string name="text_btn_login">I n i c i a r \u0020 \u0020 S e s s ã o</string>
+    <string name="text_btn_register">Registar</string>
+    <string name="text_btn_cancel">Cancelar</string>
+    <string name="text_btn_submit_change_password">Alterar Senha</string>
+    <string name="text_btn_new_colaborator">Adicionar Colaborador</string>
+    <string name="text_btn_show_qr_code">Código \u0020 QR</string>
+    <string name="text_btn_imgoing">Vou</string>
+    <string name="text_btn_imnotgoing">Não Vou</string>
+    <string name="text_btn_close">Fechar</string>
+    <string name="text_btn_create_product">Criar Produto</string>
+
+    <!-- TEXT HINT -->
+    <string name="text_hint_password">Senha de acesso</string>
+    <string name="text_hint_name">Primeiro e Último nome</string>
+    <string name="text_hint_event_name">Nome do Evento</string>
+    <string name="text_hint_event_description">Descrição</string>
+    <string name="hint_choose_password">Escolha uma senha de acesso</string>
+    <string name="text_hint_username">Nome de utilizador</string>
+    <string name="text_hint_birth_date">Data de nascimento</string>
+    <string name="text_hint_email">Email</string>
+    <string name="text_hint_repeat_password">Repetir senha de acesso</string>
+
+
+    <!-- TEXT SUBTITLES -->
+    <string name="text_login_title">Iniciar sessão</string>
+    <string name="text_forgot_pass">Esqueceu-se da senha de acesso?</string>
+    <string name="text_dont_have_acc">Não tem uma conta?</string>
+    <string name="text_event_location">Localização</string>
+    <string name="text_date_end">Data de Fim:</string>
+    <string name="text_date_start">Data de Início:</string>
+    <string name="text_event_type">Tipo de Evento:</string>
+    <string name="text_event_near_you">Mais Próximos</string>
+    <string name="text_event_trending">Tendências</string>
+    <string name="text_event_recent">Por Data</string>
+    <string name="text_event_my_events">Meus Eventos</string>
+    <string name="text_already_has_account">Já tem uma conta?</string>
+    <string name="text_sales_history">Histórico de vendas</string>
+    <string name="text_event_pick">Evento:</string>
+    <string name="text_products_list">Lista de Produtos</string>
+    <string name="text_profile_name">Nome</string>
+    <string name="text_profile_username">Nome de Utilizador</string>
+    <string name="text_profile_birthdate">Data de Nascimento</string>
+    <string name="text_profile_email">Email</string>
+    <string name="text_profile_merge_with_email">MERGE WITH EMAIL</string>
+    <string name="text_profile_merge_with_google">MERGE WITH GOOGLE</string>
+    <string name="text_event_name">Nome Evento:</string>
+    <string name="text_description">Descrição</string>
+    <string name="text_event_date_start">TextView</string>
+    <string name="text_event_date_end">TextView</string>
+    <string name="text_location">Localização</string>
+    <string name="text_likes">Gostos</string>
+    <string name="text_colaborator_name">Nome do Colaborador:</string>
+    <string name="text_settings_support">Suporte</string>
+    <string name="text_settings_version">Versão</string>
+    <string name="text_settings_release">Data de lançamento</string>
+    <string name="text_settings_developer">Desenvolvedor</string>
+    <string name="text_settings_readme">LER</string>
+    <string name="text_filter_by">Filtrar por:</string>
+
+    <!-- TOAST MESSAGES -->
+    <string name="toast_colaborator_double_added">Este colaborador já foi adicionado ao evento</string>
+    <string name="toast_main_internet">Verifique o acesso à internet</string>
+    <string name="toast_colaborator_event_added">Colaborador adicionado ao evento com sucesso!</string>
+    <string name="event_activity_create_progress">Criação de evento em progresso…</string>
+    <string name="event_activity_date_init_warning">Erro: A hora para data inicial tem de ser inferior à hora da data final</string>
+    <string name="event_activity_date_end_warning">Erro: A hora para data final tem de ser superior à hora da data inicial</string>
+    <string name="event_activity_image_select_warning">Erro: Selecione uma imagem para o evento</string>
+    <string name="event_activity_event_create_success">Evento criado com sucesso!</string>
+    <string name="event_activity_missing_parameters">Erro: Campos em falta. Por favor tente outra vez.</string>
+    <string name="event_page_url_warning">Erro: URL da imagem não encontrado. Por favor tente outra vez.</string>
+    <string name="event_page_event_not_found">Erro: Evento não encontrado. Por favor tente outra vez.</string>
+    <string name="main_user_pass_missing">Erro: Nome de utilizador/email e/ou senha de acesso não encontrado. Por favor tente outra vez.</string>
+    <string name="main_email_attached_error">Erro: Email não encontrado na base de dados. Por favor contate o suporte</string>
+    <string name="main_user_invalid">Erro: Utilizador inválido. Por favor tente outra vez.</string>
+    <string name="main_error_try_again">Erro: Por favor tente outra vez.</string>
+    <string name="main_user_not_found">Erro: Utilizador não encontrado.</string>
+    <string name="main_authentication_failed">Autênticação sem sucesso. Por favor tente outra vez.</string>
+    <string name="main_account_not_linked">Erro: Conta não vinculada a este provedor. Inicie sessão para associar a conta.</string>
+    <string name="main_acc_not_registered">Erro: Conta não registada.</string>
+    <string name="main_action_canceled">Ação cancelada: Por favor tente outra vez.</string>
+    <string name="remove_event_image_not_found">Erro: Imagem de evento não encontrada.</string>
+    <string name="remove_event_not_found_colaborator">Erro: Não foram encontrados eventos para este colaborador.</string>
+    <string name="remove_event_success">Evento removido com sucesso!</string>
+    <string name="gps_entered_event">Entrou no evento!</string>
+    <string name="gps_no_location_found">Não foi encontrada uma localização com esse nome.</string>
+    <string name="products_fields_incomplete">Erro: Todos os campos têm de ser preenchidos.</string>
+    <string name="products_success">Produto criado com sucesso!</string>
+    <string name="products_not_found_event">Erro: Não foram encontrados produtos para este evento.</string>
+    <string name="products_remove_sucess">Produto removido com sucesso!</string>
+    <string name="camera_permission_failed">Permissão da camera não atribuída. Por favor tente outra vez.</string>
+    <string name="qr_code_invalid">Erro: O código QR tem de ser válido. Por favor tente outra vez.</string>
+    <string name="transaction_username_not_found">Erro: Utilizador não encontrado.</string>
+    <string name="transactions_not_found">Erro: Não foram encontradas transações. Por favor tente outra vez.</string>
+    <string name="location_turn_on_warning">Localização não confirmada. Por favor ative a localização no seu dispositivo.</string>
+    <string name="user_already_linked_event">Erro: Já está associado a este evento.</string>
+    <string name="user_event_linked_success">Utilizador associado!</string>
+    <string name="user_account_already_linked">Erro: Conta já associada a este email</string>
+    <string name="user_account_already_linked_google">Erro: Conta já associada ao provedor da Google</string>
+    <string name="user_link_success">Conta associada com sucesso!</string>
+    <string name="user_link_failed">Associação sem sucesso. Tente outra vez.</string>
+    <string name="password_between_values">A senha de acesso deve conter entre 6 a 15 carateres.</string>
+    <string name="events_location_not_found">Erro: Localização não encontrada.</string>
+    <string name="user_already_in_use">Utilizador já em uso. Escolha outro utilizador.</string>
+    <string name="main_authentication_success">Autênticação completa.</string>
+    <string name="user_email_already_in_use">O Email já está em uso. Tente outro email.</string>
+    <string name="main_authentication_failed_reset_internet">Autênticação sem sucesso. Verifique a sua conetividade.</string>
+    <string name="please_try_again">. Por favor tente outra vez.</string>
+
+
+
+    <!-- TERMS AND CONDITIONS -->
+    <string name="text_terms_and_conditions_title">Termos e Condições</string>
+    <string name="text_terms_and_conditions">Bem-vindo à Habemus Festa\n
+ Estes termos e condições definem as regras e regulamentos para a utilização da aplicação android
+Ao aceder a esta aplicação, presumimos que aceita estes termos e condições na totalidade. Não continue a utilizar a mesma se não aceitar todos os termos e serviços referidos nesta página.
+Todos os termos referem-se à oferta, aceitação e consideração de insersão de dados necessários para levar a cabo o processo da nossa aplicação da forma mais apropriada.
+\n\n
+Informação de Produto e Conteúdos\n\n
+A Habemus Festa fará todos os possíveis para que a informação apresentada não contenha erros tipográficos, sendo que serão rapidamente corrigidos sempre que estes ocorram
+A Habemus Festa fará todos os possíveis para gerir toda e qualquer tipo de nova integração de utilizadores comuns ou colaboradores, sendo os primeiros os utilizadores dos pontos atribuídos e os segundos quem debita os pontos. Pontos estes que surjem após contato com outros utilizadores para troca mútua através de contato social, estando também presente esta atribuição de pontos nas entradas de qualquer evento vindouro.
+Qualquer utilizador que tenha serviço para venda de consumo no evento, deverá registar-se como colaborador a fim de lhe ser atribuído um perfil diferente bem como dados de utilização.
+A troca de pontos estará presente para utilização em qualquer serviço de evento tais como comidas, bebidas e merchandise. Os pontos serão ilimitados e serão válidos para cada evento, querendo dizer com isto que  poderão também ser transportados para o evento seguinte acumulando oportunidade de troca por qualquer um dos serviços anteriormente descritos.
+Num evento não é mandatório que todos os colaboradores estejam agregados ao serviço da nossa aplicação, pelo que poderão encontrar colaboradores com produtos passíveis de troca de pontos e outros com troca de pontos e com pagamento de valor acrescido.
+Todo e qualquer serviço de colaborador que não pretenda fazer parte da troca de pontos, não poderá ser aceite como colaborador oficial da Habemus Festa.
+\n\nLicença\n\n
+Sendo a aplicação desenvolvida em foro de processo escolar, não tem qualquer tipo de legislação ainda agregada visto tratar-se de um projeto académico de fim de curso.
+\n\nAviso\n\n
+Na medida em que a aplicação, a informação e os serviços são fornecidos sem qualquer custo, não seremos responsáveis por qualquer perda ou dano de qualquer natureza.
+\n\n
+Privacidade e Proteção de Dados Pessoais\n\n
+A Habemus Festa garante a confidencialidade de todos os dados fornecidos pelos Utilizadores.
+Os dados pessoais identificados no perfil de utilizador/colaborador como sendo de fornecimento obrigatório são indispensáveis à prestação do Serviço pela Habemus Festa. A omissão ou inexatidão dos dados fornecidos pelo Utilizador são da sua única e inteira responsabilidade e podem dar lugar à recusa de prestação do Serviço pela Habemus Festa.
+Os dados pessoais do Utilizador serão processados e armazenados informaticamente e destinam-se a ser utilizados no âmbito da relação comercial com o Utilizador por ser intermediário do evento.
+\n\nComunicações\n\n
+Sempre que a Habemus Festa entenda necessário ou conveniente otimizar a experiência de navegação e/ou melhorar as condições de conetividade, a mesma poderá reformular as configurações de rede.
+Desistência da aplicação
+A todo e qualquer momento pode o utilizador revogar a sua inscrição na aplicação tendo continuado como utilizador ou sendo já colaborador sem pena de estar sujeito a qualquer penalização adjacente. Todo e qualquer número de pontos que cada utilizador tenha será perdido e no caso dos colaboradores para além de deixarem de fazer parte dos eventos como prestadores de serviços perdem também o registo como utilizadores.
+\n\n
+
+Esta página de Termos e condições foi criada como um modelo pela Habemus Festa</string>
+
+
+</resources>

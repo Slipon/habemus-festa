@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "368431396832",
+    "firebase_url": "https://habemus-festa-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "habemus-festa",
+    "storage_bucket": "habemus-festa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:368431396832:android:a19f00ffe1533d3fd89d85",
+        "android_client_info": {
+          "package_name": "com.example.habemusfesta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "368431396832-vl44n3t99llqfgm3pmm3rvl77lbek970.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPf6ra_SHziyiRrTrNDaBfXW03KsNAvr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "368431396832-vl44n3t99llqfgm3pmm3rvl77lbek970.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

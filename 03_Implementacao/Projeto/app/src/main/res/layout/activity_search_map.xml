@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".gps.SearchMap">
+
+    <fragment
+        android:id="@+id/google_map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.greenfeetsurvival.greenfeetaviator.EventActivity">
+        <androidx.appcompat.widget.SearchView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/event_localization_searchbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="top"
+            android:layout_margin="5dp"
+            card_view:cardCornerRadius="4dp"
+            card_view:queryHint="@string/text_location"
+            card_view:searchIcon="@drawable/ic_baseline_search_24"
+            android:background="@drawable/frame_line_blue_with_background">
+
+            <fragment
+                android:id="@+id/autocomplete_fragment"
+                android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.appcompat.widget.SearchView>
+    </fragment>
+
+</RelativeLayout>

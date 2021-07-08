@@ -1,0 +1,98 @@
+Index: app/src/main/res/layout/transaction_status_popup_window.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<RelativeLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    xmlns:tools=\"http://schemas.android.com/tools\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"match_parent\">\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"match_parent\"\r\n        android:orientation=\"vertical\">\r\n\r\n        <LinearLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"416dp\"\r\n            android:gravity=\"center\"\r\n            android:orientation=\"horizontal\">\r\n\r\n            <ImageView\r\n                android:id=\"@+id/transactionStatus\"\r\n                android:layout_width=\"383dp\"\r\n                android:layout_height=\"383dp\"\r\n                android:layout_marginTop=\"24dp\"\r\n                android:background=\"@drawable/green_check\" />\r\n        </LinearLayout>\r\n\r\n        <LinearLayout\r\n            android:layout_width=\"match_parent\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:gravity=\"center\"\r\n            android:orientation=\"horizontal\">\r\n\r\n            <Button\r\n                android:id=\"@+id/closeTransactionStatusBtn\"\r\n                android:layout_width=\"178dp\"\r\n                android:layout_height=\"55dp\"\r\n                android:layout_marginTop=\"118dp\"\r\n                android:layout_marginBottom=\"80dp\"\r\n                android:gravity=\"center\"\r\n                android:text=\"Close\" />\r\n        </LinearLayout>\r\n\r\n    </LinearLayout>\r\n\r\n</RelativeLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/transaction_status_popup_window.xml	(revision 34398350b701c947db0512c7e3a518fa25dc7ac1)
++++ app/src/main/res/layout/transaction_status_popup_window.xml	(date 1622922011214)
+@@ -3,24 +3,31 @@
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="match_parent"
+-    android:layout_height="match_parent">
++    android:layout_height="wrap_content">
+ 
+     <LinearLayout
+         android:layout_width="match_parent"
+-        android:layout_height="match_parent"
++        android:layout_height="wrap_content"
+         android:orientation="vertical">
+ 
+         <LinearLayout
+             android:layout_width="match_parent"
+-            android:layout_height="416dp"
++            android:layout_height="wrap_content"
+             android:gravity="center"
+             android:orientation="horizontal">
+ 
++            <TextView
++                android:id="@+id/textView2"
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
++                android:text="Transação realizada com sucesso!"
++                android:textSize="18sp" />
++
+             <ImageView
+                 android:id="@+id/transactionStatus"
+-                android:layout_width="383dp"
+-                android:layout_height="383dp"
+-                android:layout_marginTop="24dp"
++                android:layout_width="20sp"
++                android:layout_height="20dp"
++                android:layout_marginLeft="5sp"
+                 android:background="@drawable/green_check" />
+         </LinearLayout>
+ 
+@@ -32,10 +39,8 @@
+ 
+             <Button
+                 android:id="@+id/closeTransactionStatusBtn"
+-                android:layout_width="178dp"
+-                android:layout_height="55dp"
+-                android:layout_marginTop="118dp"
+-                android:layout_marginBottom="80dp"
++                android:layout_width="wrap_content"
++                android:layout_height="wrap_content"
+                 android:gravity="center"
+                 android:text="Close" />
+         </LinearLayout>
+Index: app/build.gradle
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>plugins {\r\n    id 'com.android.application'\r\n    id 'com.google.gms.google-services'\r\n}\r\n\r\nandroid {\r\n    compileSdkVersion 30\r\n    buildToolsVersion \"30.0.3\"\r\n\r\n    defaultConfig {\r\n        applicationId \"com.example.habemusfesta\"\r\n        minSdkVersion 22\r\n        targetSdkVersion 30\r\n        versionCode 1\r\n        versionName \"1.0\"\r\n\r\n        testInstrumentationRunner \"androidx.test.runner.AndroidJUnitRunner\"\r\n    }\r\n\r\n    buildTypes {\r\n        release {\r\n            minifyEnabled false\r\n            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'\r\n        }\r\n    }\r\n    compileOptions {\r\n        sourceCompatibility JavaVersion.VERSION_1_8\r\n        targetCompatibility JavaVersion.VERSION_1_8\r\n    }\r\n}\r\n\r\ndependencies {\r\n\r\n    implementation 'androidx.appcompat:appcompat:1.1.0'\r\n    implementation 'com.google.android.material:material:1.1.0'\r\n    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'\r\n    implementation 'androidx.preference:preference:1.1.1'\r\n    implementation 'androidx.legacy:legacy-support-v4:1.0.0'\r\n    implementation 'com.google.firebase:firebase-auth:20.0.4'\r\n    implementation 'com.google.firebase:firebase-database:19.7.0'\r\n    implementation 'com.facebook.android:facebook-android-sdk:[5,6)'\r\n    implementation 'com.google.android.gms:play-services-auth:18.0.0'\r\n    implementation 'com.google.firebase:firebase-storage:20.0.0'\r\n    testImplementation 'junit:junit:4.+'\r\n    androidTestImplementation 'androidx.test.ext:junit:1.1.1'\r\n    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'\r\n\r\n    //QR Code\r\n    implementation 'androidmads.library.qrgenearator:QRGenearator:1.0.4'\r\n    implementation 'com.google.zxing:core:3.3.2'\r\n    implementation 'com.budiyev.android:code-scanner:2.1.0'\r\n\r\n    //Glide\r\n    implementation 'com.github.bumptech.glide:glide:4.12.0'\r\n    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'\r\n\r\n    //PhotoView\r\n    implementation 'com.github.chrisbanes:PhotoView:2.0.0'\r\n\r\n    //GeoFire\r\n    // Full GeoFire library for Realtime Database users\r\n    implementation 'com.firebase:geofire-android:3.1.0'\r\n\r\n    // GeoFire utililty functions for Cloud Firestore users who\r\n    // want to implement their own geo solution, see:\r\n    // https://firebase.google.com/docs/firestore/solutions/geoqueries\r\n    implementation 'com.firebase:geofire-android-common:3.1.0'\r\n\r\n    // Add this for versions\r\n    def nav_version = \"2.3.0\"\r\n\r\n    // Navigation Components\r\n    implementation \"androidx.navigation:navigation-fragment-ktx:$nav_version\"\r\n    implementation \"androidx.navigation:navigation-ui-ktx:$nav_version\"\r\n\r\n    //Google Play Services\r\n    implementation 'com.google.android.gms:play-services-location:18.0.0'\r\n\r\n    //Maps - Autocomplete\r\n    implementation 'com.google.android.libraries.places:places:2.4.0'\r\n\r\n    //GeoFire\r\n    // Full GeoFire library for Realtime Database users\r\n    implementation 'com.firebase:geofire-android:3.1.0'\r\n\r\n    // GeoFire utililty functions for Cloud Firestore users who\r\n    // want to implement their own geo solution, see:\r\n    // https://firebase.google.com/docs/firestore/solutions/geoqueries\r\n    implementation 'com.firebase:geofire-android-common:3.1.0'\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/build.gradle	(revision 34398350b701c947db0512c7e3a518fa25dc7ac1)
++++ app/build.gradle	(date 1622906341418)
+@@ -79,12 +79,4 @@
+     //Maps - Autocomplete
+     implementation 'com.google.android.libraries.places:places:2.4.0'
+ 
+-    //GeoFire
+-    // Full GeoFire library for Realtime Database users
+-    implementation 'com.firebase:geofire-android:3.1.0'
+-
+-    // GeoFire utililty functions for Cloud Firestore users who
+-    // want to implement their own geo solution, see:
+-    // https://firebase.google.com/docs/firestore/solutions/geoqueries
+-    implementation 'com.firebase:geofire-android-common:3.1.0'
+ }
+\ No newline at end of file
+Index: app/src/main/res/drawable/btn_bg2.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/drawable/btn_bg2.xml	(date 1622821738999)
++++ app/src/main/res/drawable/btn_bg2.xml	(date 1622821738999)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="utf-8"?>
++<shape xmlns:android="http://schemas.android.com/apk/res/android">
++    <solid android:color="@color/buttonsBorder"/>
++    <corners android:radius="70sp"/>
++
++</shape>
+\ No newline at end of file
