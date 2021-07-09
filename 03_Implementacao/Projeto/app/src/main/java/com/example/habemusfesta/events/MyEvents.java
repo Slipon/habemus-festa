@@ -67,9 +67,7 @@ public class MyEvents extends Fragment {
         @Override
         public void onMapReady(GoogleMap googleMap) {
             map = googleMap;
-            //Move the camera to position
-            LatLng lisbon = new LatLng(38.736946, -9.142685);
-            map.moveCamera(CameraUpdateFactory.newLatLngZoom(lisbon, 10));
+            getMyEvents();
         }
     };
 
